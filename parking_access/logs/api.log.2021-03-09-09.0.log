@@ -1,0 +1,195 @@
+2021-03-09 09:35:25.060 [main] INFO  com.demo.parking_access.ParkingAccessApplication - Starting ParkingAccessApplication on DESKTOP-4IL9A7A with PID 13072 (F:\parking_access\target\classes started by Yang in F:\parking_access)
+2021-03-09 09:35:25.075 [main] INFO  com.demo.parking_access.ParkingAccessApplication - No active profile set, falling back to default profiles: default
+2021-03-09 09:35:25.580 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-03-09 09:35:25.580 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-03-09 09:35:25.596 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7ms. Found 0 Redis repository interfaces.
+2021-03-09 09:35:25.971 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-03-09 09:35:25.971 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-09 09:35:25.971 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-03-09 09:35:25.971 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2021-03-09 09:35:26.096 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-03-09 09:35:26.096 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 989 ms
+2021-03-09 09:35:26.596 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-09 09:35:26.689 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-03-09 09:35:26.986 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2021-03-09 09:35:26.986 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-03-09 09:35:26.986 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2021-03-09 09:35:26.986 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2021-03-09 09:35:26.986 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2021-03-09 09:35:26.986 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2021-03-09 09:35:26.986 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2021-03-09 09:35:26.986 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@2440022a
+2021-03-09 09:35:27.017 [main] INFO  o.s.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+2021-03-09 09:35:27.017 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2021-03-09 09:35:27.017 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-03-09 09:35:27.033 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2021-03-09 09:35:27.033 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2021-03-09 09:35:27.033 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2021-03-09 09:35:27.033 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+2021-03-09 09:35:27.033 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-03-09 09:35:27.033 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2021-03-09 09:35:27.033 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2021-03-09 09:35:27.033 [main] INFO  o.s.scheduling.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+2021-03-09 09:35:27.033 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2021-03-09 09:35:27.033 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2021-03-09 09:35:27.033 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2021-03-09 09:35:27.049 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-09 09:35:54.083 [main] INFO  com.demo.parking_access.ParkingAccessApplication - Starting ParkingAccessApplication on DESKTOP-4IL9A7A with PID 7204 (F:\parking_access\target\classes started by Yang in F:\parking_access)
+2021-03-09 09:35:54.083 [main] INFO  com.demo.parking_access.ParkingAccessApplication - No active profile set, falling back to default profiles: default
+2021-03-09 09:35:54.567 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-03-09 09:35:54.567 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-03-09 09:35:54.583 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7ms. Found 0 Redis repository interfaces.
+2021-03-09 09:35:54.973 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-03-09 09:35:54.989 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-09 09:35:54.989 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-03-09 09:35:54.989 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2021-03-09 09:35:55.114 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-03-09 09:35:55.114 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1000 ms
+2021-03-09 09:35:55.650 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-09 09:35:55.728 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-03-09 09:35:56.009 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2021-03-09 09:35:56.009 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-03-09 09:35:56.009 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2021-03-09 09:35:56.009 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2021-03-09 09:35:56.009 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2021-03-09 09:35:56.009 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2021-03-09 09:35:56.009 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2021-03-09 09:35:56.009 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@4fd05028
+2021-03-09 09:35:56.041 [main] INFO  o.s.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+2021-03-09 09:35:56.041 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2021-03-09 09:35:56.041 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-03-09 09:35:56.056 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-09 09:35:56.056 [main] INFO  com.demo.parking_access.ParkingAccessApplication - Started ParkingAccessApplication in 2.204 seconds (JVM running for 4.083)
+2021-03-09 09:38:07.488 [main] INFO  com.demo.parking_access.ParkingAccessApplication - Starting ParkingAccessApplication on DESKTOP-4IL9A7A with PID 13420 (F:\parking_access\target\classes started by Yang in F:\parking_access)
+2021-03-09 09:38:07.488 [main] INFO  com.demo.parking_access.ParkingAccessApplication - No active profile set, falling back to default profiles: default
+2021-03-09 09:38:07.941 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-03-09 09:38:07.941 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-03-09 09:38:07.956 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7ms. Found 0 Redis repository interfaces.
+2021-03-09 09:38:08.368 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-03-09 09:38:08.383 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-09 09:38:08.383 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-03-09 09:38:08.383 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2021-03-09 09:38:08.493 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-03-09 09:38:08.493 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 974 ms
+2021-03-09 09:38:08.961 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-09 09:38:09.039 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-03-09 09:38:09.469 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2021-03-09 09:38:09.469 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-03-09 09:38:09.469 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2021-03-09 09:38:09.469 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2021-03-09 09:38:09.469 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2021-03-09 09:38:09.469 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2021-03-09 09:38:09.469 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2021-03-09 09:38:09.469 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@123d7057
+2021-03-09 09:38:09.501 [main] INFO  o.s.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+2021-03-09 09:38:09.501 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2021-03-09 09:38:09.501 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-03-09 09:38:09.532 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-09 09:38:09.532 [main] INFO  com.demo.parking_access.ParkingAccessApplication - Started ParkingAccessApplication in 2.263 seconds (JVM running for 4.093)
+2021-03-09 09:38:15.181 [http-nio-8080-exec-4] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-09 09:38:15.181 [http-nio-8080-exec-4] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-03-09 09:38:15.184 [http-nio-8080-exec-4] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2021-03-09 09:38:15.229 [http-nio-8080-exec-4] INFO  com.demo.parking_access.controller.ParkHandover - ---执行登录---name:muyunpassword:123456
+2021-03-09 09:38:15.243 [http-nio-8080-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-03-09 09:38:15.641 [http-nio-8080-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-03-09 09:38:16.854 [http-nio-8080-exec-3] INFO  com.demo.parking_access.controller.ParkHandover - ---执行查找剩余车位---
+2021-03-09 09:38:16.885 [http-nio-8080-exec-3] INFO  com.demo.parking_access.controller.ParkHandover - uuid：eN3423NwQ1
+2021-03-09 09:38:24.730 [http-nio-8080-exec-1] INFO  com.demo.parking_access.controller.ParkHandover - picUrlhttp://muyun-park.oss-cn-hangzhou.aliyuncs.com/p31010012/in/2021-03-09/09/蓝色_赣FD9688_20210309093823069.jpglicense:{"license":"赣FD9688","color":"na","confidence":0.996075439453125}gateuuid:ru8j1E9vLCtime:1615253903parkid:p31010012picUrl:http://muyun-park.oss-cn-hangzhou.aliyuncs.com/p31010012/in/2021-03-09/09/蓝色_赣FD9688_20210309093823069.jpg
+2021-03-09 09:38:24.787 [http-nio-8080-exec-1] INFO  com.demo.parking_access.controller.ParkHandover - license:赣FD9688
+2021-03-09 09:38:24.957 [http-nio-8080-exec-1] INFO  com.demo.parking_access.controller.ParkHandover - CarEnter->Redis：eN3423NwQ1
+2021-03-09 09:38:27.098 [http-nio-8080-exec-5] INFO  com.demo.parking_access.controller.ParkHandover - ---执行查找剩余车位---
+2021-03-09 09:38:27.110 [http-nio-8080-exec-5] INFO  com.demo.parking_access.controller.ParkHandover - uuid：eN3423NwQ1
+2021-03-09 09:54:05.144 [main] INFO  com.demo.parking_access.ParkingAccessApplication - Starting ParkingAccessApplication on DESKTOP-4IL9A7A with PID 2828 (F:\parking_access\target\classes started by Yang in F:\parking_access)
+2021-03-09 09:54:05.148 [main] INFO  com.demo.parking_access.ParkingAccessApplication - No active profile set, falling back to default profiles: default
+2021-03-09 09:54:05.696 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-03-09 09:54:05.696 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-03-09 09:54:05.712 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7ms. Found 0 Redis repository interfaces.
+2021-03-09 09:54:06.071 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-03-09 09:54:06.071 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-09 09:54:06.071 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-03-09 09:54:06.071 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2021-03-09 09:54:06.196 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-03-09 09:54:06.196 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 997 ms
+2021-03-09 09:54:06.664 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-09 09:54:06.742 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-03-09 09:54:07.008 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2021-03-09 09:54:07.008 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-03-09 09:54:07.008 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2021-03-09 09:54:07.008 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2021-03-09 09:54:07.008 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2021-03-09 09:54:07.008 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2021-03-09 09:54:07.008 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2021-03-09 09:54:07.008 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@63a28987
+2021-03-09 09:54:07.039 [main] INFO  o.s.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+2021-03-09 09:54:07.039 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2021-03-09 09:54:07.039 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-03-09 09:54:07.055 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2021-03-09 09:54:07.055 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2021-03-09 09:54:07.055 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2021-03-09 09:54:07.055 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+2021-03-09 09:54:07.055 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-03-09 09:54:07.055 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2021-03-09 09:54:07.055 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2021-03-09 09:54:07.055 [main] INFO  o.s.scheduling.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+2021-03-09 09:54:07.055 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2021-03-09 09:54:07.055 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2021-03-09 09:54:07.055 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2021-03-09 09:54:07.071 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'

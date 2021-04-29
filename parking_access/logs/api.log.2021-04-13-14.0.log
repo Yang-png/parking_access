@@ -1,0 +1,64 @@
+2021-04-13 14:40:22.601 [main] INFO  com.demo.parking_access.ParkingAccessApplication - Starting ParkingAccessApplication on DESKTOP-4IL9A7A with PID 544 (F:\parking_access\target\classes started by Yang in F:\parking_access)
+2021-04-13 14:40:22.604 [main] INFO  com.demo.parking_access.ParkingAccessApplication - No active profile set, falling back to default profiles: default
+2021-04-13 14:40:23.565 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-13 14:40:23.571 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-13 14:40:23.612 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12ms. Found 0 Redis repository interfaces.
+2021-04-13 14:40:24.218 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-04-13 14:40:24.230 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-13 14:40:24.230 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-13 14:40:24.230 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2021-04-13 14:40:24.380 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-13 14:40:24.381 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1728 ms
+2021-04-13 14:40:25.227 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-13 14:40:25.362 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-04-13 14:40:25.813 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2021-04-13 14:40:25.827 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-04-13 14:40:25.827 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2021-04-13 14:40:25.828 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2021-04-13 14:40:25.828 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2021-04-13 14:40:25.828 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2021-04-13 14:40:25.828 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2021-04-13 14:40:25.828 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@ea52184
+2021-04-13 14:40:25.833 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2021-04-13 14:40:25.862 [main] INFO  o.s.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+2021-04-13 14:40:25.863 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2021-04-13 14:40:25.870 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-04-13 14:40:25.911 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-13 14:40:25.914 [main] INFO  com.demo.parking_access.ParkingAccessApplication - Started ParkingAccessApplication in 3.777 seconds (JVM running for 5.627)
+2021-04-13 14:40:47.923 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-13 14:40:47.923 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-13 14:40:47.929 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2021-04-13 14:40:47.987 [http-nio-8080-exec-1] INFO  com.demo.parking_access.controller.ParkHandover - ---执行登录---name:muyunpassword:123456
+2021-04-13 14:40:48.007 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-04-13 14:40:48.648 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-04-13 14:40:51.092 [http-nio-8080-exec-3] INFO  com.demo.parking_access.controller.ParkHandover - ---执行查找剩余车位---
+2021-04-13 14:40:51.125 [http-nio-8080-exec-3] INFO  com.demo.parking_access.controller.ParkHandover - uuid：eN3423NwQ1
+2021-04-13 14:46:15.208 [http-nio-8080-exec-5] INFO  com.demo.parking_access.controller.ParkHandover - ---执行查找剩余车位---
+2021-04-13 14:46:15.242 [http-nio-8080-exec-5] INFO  com.demo.parking_access.controller.ParkHandover - uuid：eN3423NwQ1
+2021-04-13 14:48:08.647 [http-nio-8080-exec-4] INFO  com.demo.parking_access.controller.ParkHandover - ---执行查找剩余车位---
+2021-04-13 14:48:08.678 [http-nio-8080-exec-4] INFO  com.demo.parking_access.controller.ParkHandover - uuid：eN3423NwQ1
+2021-04-13 14:51:56.322 [http-nio-8080-exec-7] INFO  com.demo.parking_access.controller.ParkHandover - ---执行登录---name:muyunpassword:123456
+2021-04-13 14:51:56.830 [http-nio-8080-exec-9] INFO  com.demo.parking_access.controller.ParkHandover - ---执行查找剩余车位---
+2021-04-13 14:51:56.857 [http-nio-8080-exec-9] INFO  com.demo.parking_access.controller.ParkHandover - uuid：72034CC8C7FA41B6AB3343BA16BB0B46
+2021-04-13 14:52:50.578 [http-nio-8080-exec-8] INFO  com.demo.parking_access.controller.ParkHandover - ---执行查找剩余车位---
+2021-04-13 14:52:50.611 [http-nio-8080-exec-8] INFO  com.demo.parking_access.controller.ParkHandover - uuid：72034CC8C7FA41B6AB3343BA16BB0B46
+2021-04-13 14:55:07.637 [http-nio-8080-exec-5] INFO  com.demo.parking_access.controller.ParkHandover - ---执行查找剩余车位---
+2021-04-13 14:55:07.680 [http-nio-8080-exec-5] INFO  com.demo.parking_access.controller.ParkHandover - uuid：72034CC8C7FA41B6AB3343BA16BB0B46
+2021-04-13 14:55:12.861 [http-nio-8080-exec-6] INFO  com.demo.parking_access.controller.ParkHandover - picUrlhttp://muyun-park.oss-cn-hangzhou.aliyuncs.com/p31010012/in/2021-04-13/14/蓝色_沪EC9656_20210413145512575.jpglicense:{"license":"沪EC9656","color":"na","confidence":0.952581787109375}gateuuid:9EDB552AD9874C3CB5E5AA300E5921ACtime:1618296912parkid:p31010012picUrl:http://muyun-park.oss-cn-hangzhou.aliyuncs.com/p31010012/in/2021-04-13/14/蓝色_沪EC9656_20210413145512575.jpg
+2021-04-13 14:55:18.903 [http-nio-8080-exec-6] INFO  com.demo.parking_access.controller.ParkHandover - carEnter.ss 生成业务订单号:B834C3F18D464636BB26892A33523932
+2021-04-13 14:55:18.952 [http-nio-8080-exec-6] INFO  com.demo.parking_access.controller.ParkHandover - carEnter.ss 进场->沪EC9656
+2021-04-13 14:55:19.221 [http-nio-8080-exec-6] INFO  com.demo.parking_access.controller.ParkHandover - CarEnter-> 存入Redis：72034CC8C7FA41B6AB3343BA16BB0B46B834C3F18D464636BB26892A33523932
+2021-04-13 14:55:21.482 [http-nio-8080-exec-4] INFO  com.demo.parking_access.controller.ParkHandover - ---执行查找剩余车位---
+2021-04-13 14:55:21.513 [http-nio-8080-exec-4] INFO  com.demo.parking_access.controller.ParkHandover - uuid：72034CC8C7FA41B6AB3343BA16BB0B46
+2021-04-13 14:57:39.876 [http-nio-8080-exec-8] INFO  com.demo.parking_access.controller.ParkHandover - ---执行登录---name:muyun2password:123456
+2021-04-13 14:57:40.299 [http-nio-8080-exec-10] INFO  com.demo.parking_access.controller.ParkHandover - ---执行查找剩余车位---
+2021-04-13 14:57:40.313 [http-nio-8080-exec-10] INFO  com.demo.parking_access.controller.ParkHandover - uuid：DDA10130E95C4BCD9EA75C0FCA3F22B1
+2021-04-13 14:58:35.456 [http-nio-8080-exec-5] INFO  com.demo.parking_access.controller.ParkHandover - ---执行查找剩余车位---
+2021-04-13 14:58:35.491 [http-nio-8080-exec-5] INFO  com.demo.parking_access.controller.ParkHandover - uuid：DDA10130E95C4BCD9EA75C0FCA3F22B1

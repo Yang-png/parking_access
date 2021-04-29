@@ -1,0 +1,106 @@
+11:27:01.302 parking_access [main] INFO  c.d.p.ParkingAccessApplication - Starting ParkingAccessApplication on DESKTOP-4IL9A7A with PID 17128 (F:\parking_access\target\classes started by Yang in F:\parking_access)
+11:27:01.302 parking_access [main] INFO  c.d.p.ParkingAccessApplication - No active profile set, falling back to default profiles: default
+11:27:01.990 parking_access [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+11:27:02.006 parking_access [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+11:27:02.006 parking_access [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:27:02.006 parking_access [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+11:27:02.115 parking_access [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:27:02.115 parking_access [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 782 ms
+11:27:02.442 parking_access [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+11:27:02.661 parking_access [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+11:27:02.661 parking_access [main] INFO  o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+11:27:02.661 parking_access [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+11:27:02.661 parking_access [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+11:27:02.661 parking_access [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+11:27:02.661 parking_access [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+11:27:02.661 parking_access [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+11:27:02.661 parking_access [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@588307f7
+11:27:02.692 parking_access [main] INFO  o.s.s.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+11:27:02.692 parking_access [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+11:27:02.692 parking_access [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+11:27:02.707 parking_access [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+11:27:02.707 parking_access [main] INFO  c.d.p.ParkingAccessApplication - Started ParkingAccessApplication in 1.602 seconds (JVM running for 2.793)
+11:27:35.960 parking_access [http-nio-8080-exec-1] INFO  o.a.tomcat.util.http.parser.Cookie - A cookie header was received [1599728089,1600242320,1600305083; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1600396071; JSESSIONID=A4748461F188003D5FA41C79B112DAD0] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+11:27:35.965 parking_access [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:27:35.965 parking_access [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+11:27:35.969 parking_access [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+11:27:46.098 parking_access [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+11:27:46.426 parking_access [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+11:32:52.911 parking_access [main] INFO  c.d.p.ParkingAccessApplication - Starting ParkingAccessApplication on DESKTOP-4IL9A7A with PID 21000 (F:\parking_access\target\classes started by Yang in F:\parking_access)
+11:32:52.911 parking_access [main] INFO  c.d.p.ParkingAccessApplication - No active profile set, falling back to default profiles: default
+11:32:53.614 parking_access [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+11:32:53.614 parking_access [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+11:32:53.614 parking_access [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:32:53.614 parking_access [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+11:32:53.723 parking_access [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:32:53.723 parking_access [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 781 ms
+11:32:54.051 parking_access [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+11:32:54.254 parking_access [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+11:32:54.270 parking_access [main] INFO  o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+11:32:54.270 parking_access [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+11:32:54.270 parking_access [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+11:32:54.270 parking_access [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+11:32:54.270 parking_access [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+11:32:54.270 parking_access [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+11:32:54.270 parking_access [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@6aba5d30
+11:32:54.285 parking_access [main] INFO  o.s.s.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+11:32:54.285 parking_access [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+11:32:54.301 parking_access [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+11:32:54.317 parking_access [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+11:32:54.317 parking_access [main] INFO  c.d.p.ParkingAccessApplication - Started ParkingAccessApplication in 1.587 seconds (JVM running for 2.644)
+11:32:57.270 parking_access [http-nio-8080-exec-1] INFO  o.a.tomcat.util.http.parser.Cookie - A cookie header was received [1599728089,1600242320,1600305083; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1600396071; JSESSIONID=A4748461F188003D5FA41C79B112DAD0] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+11:32:57.274 parking_access [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:32:57.275 parking_access [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+11:32:57.278 parking_access [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+11:32:57.299 parking_access [http-nio-8080-exec-1] INFO  c.d.p.controller.ParkHandover - ---执行登录---name:nullpassword:null
+11:32:57.310 parking_access [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+11:32:57.636 parking_access [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+11:47:06.201 parking_access [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.demo.parking_access.ParkingAccessApplicationTests], using SpringBootContextLoader
+11:47:06.201 parking_access [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.demo.parking_access.ParkingAccessApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+11:47:06.201 parking_access [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.demo.parking_access.ParkingAccessApplicationTests]: ParkingAccessApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+11:47:06.279 parking_access [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.demo.parking_access.ParkingAccessApplication for test class com.demo.parking_access.ParkingAccessApplicationTests
+11:47:06.373 parking_access [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+11:47:06.373 parking_access [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@163370c2, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@51bf5add, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@7905a0b8, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@35a3d49f, org.springframework.test.context.support.DirtiesContextTestExecutionListener@389b0789, org.springframework.test.context.transaction.TransactionalTestExecutionListener@13d9cbf5, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@478db956, org.springframework.test.context.event.EventPublishingTestExecutionListener@6ca18a14, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@c667f46, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@51bd8b5c, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7b50df34, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1b410b60, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@2462cb01]
+11:47:06.607 parking_access [main] INFO  c.d.p.ParkingAccessApplicationTests - Starting ParkingAccessApplicationTests on DESKTOP-4IL9A7A with PID 17564 (started by Yang in F:\parking_access)
+11:47:06.607 parking_access [main] INFO  c.d.p.ParkingAccessApplicationTests - No active profile set, falling back to default profiles: default
+11:47:08.107 parking_access [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+11:47:08.497 parking_access [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+11:47:08.513 parking_access [main] INFO  o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+11:47:08.513 parking_access [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+11:47:08.513 parking_access [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+11:47:08.513 parking_access [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+11:47:08.513 parking_access [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+11:47:08.513 parking_access [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+11:47:08.513 parking_access [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@177515d1
+11:47:08.591 parking_access [main] INFO  o.s.s.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+11:47:08.591 parking_access [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+11:47:08.607 parking_access [main] INFO  c.d.p.ParkingAccessApplicationTests - Started ParkingAccessApplicationTests in 2.195 seconds (JVM running for 3.102)
+11:47:08.794 parking_access [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+11:47:08.794 parking_access [SpringContextShutdownHook] INFO  o.s.s.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+11:47:08.794 parking_access [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+11:47:08.794 parking_access [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+11:47:08.794 parking_access [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+11:47:08.794 parking_access [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'

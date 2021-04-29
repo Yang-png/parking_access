@@ -1,0 +1,2 @@
+2021-03-08 11:01:46.916 [http-nio-8080-exec-9] INFO  com.demo.parking_access.controller.ParkHandover - ---执行查找剩余车位---
+2021-03-08 11:01:46.951 [http-nio-8080-exec-9] INFO  com.demo.parking_access.controller.ParkHandover - uuid：eN3423NwQ1

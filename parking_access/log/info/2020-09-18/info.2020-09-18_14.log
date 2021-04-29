@@ -1,0 +1,29 @@
+14:13:10.421 parking_access [main] INFO  c.d.p.ParkingAccessApplication - Starting ParkingAccessApplication on DESKTOP-4IL9A7A with PID 8844 (F:\parking_access\target\classes started by Yang in F:\parking_access)
+14:13:10.423 parking_access [main] INFO  c.d.p.ParkingAccessApplication - No active profile set, falling back to default profiles: default
+14:13:11.632 parking_access [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+14:13:11.641 parking_access [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+14:13:11.641 parking_access [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:13:11.642 parking_access [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+14:13:11.792 parking_access [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:13:11.792 parking_access [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1306 ms
+14:13:12.153 parking_access [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+14:13:12.418 parking_access [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+14:13:12.430 parking_access [main] INFO  o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+14:13:12.431 parking_access [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+14:13:12.431 parking_access [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+14:13:12.432 parking_access [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+14:13:12.432 parking_access [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+14:13:12.432 parking_access [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+14:13:12.432 parking_access [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@95bb2a2
+14:13:12.454 parking_access [main] INFO  o.s.s.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+14:13:12.454 parking_access [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+14:13:12.459 parking_access [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+14:13:12.479 parking_access [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+14:13:12.481 parking_access [main] INFO  c.d.p.ParkingAccessApplication - Started ParkingAccessApplication in 2.419 seconds (JVM running for 3.546)

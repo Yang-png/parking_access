@@ -1,0 +1,107 @@
+2021-01-13 21:19:05.404 [main] INFO  com.demo.parking_access.ParkingAccessApplication - Starting ParkingAccessApplication on DESKTOP-4IL9A7A with PID 6816 (F:\parking_access\target\classes started by Yang in F:\parking_access)
+2021-01-13 21:19:05.407 [main] INFO  com.demo.parking_access.ParkingAccessApplication - No active profile set, falling back to default profiles: default
+2021-01-13 21:19:06.349 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-13 21:19:06.354 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-01-13 21:19:06.453 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 53ms. Found 0 Redis repository interfaces.
+2021-01-13 21:19:07.148 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-01-13 21:19:07.167 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-01-13 21:19:07.169 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-13 21:19:07.169 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2021-01-13 21:19:08.091 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-13 21:19:08.091 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2631 ms
+2021-01-13 21:19:09.183 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-13 21:19:09.325 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-13 21:19:09.788 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2021-01-13 21:19:09.803 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-01-13 21:19:09.803 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2021-01-13 21:19:09.803 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2021-01-13 21:19:09.804 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2021-01-13 21:19:09.804 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2021-01-13 21:19:09.804 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2021-01-13 21:19:09.804 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@39909d1a
+2021-01-13 21:19:09.833 [main] INFO  o.s.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+2021-01-13 21:19:09.833 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2021-01-13 21:19:09.840 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-01-13 21:19:09.866 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-13 21:19:09.869 [main] INFO  com.demo.parking_access.ParkingAccessApplication - Started ParkingAccessApplication in 5.043 seconds (JVM running for 7.505)
+2021-01-13 21:26:12.171 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.demo.parking_access.ParkingAccessApplicationTests], using SpringBootContextLoader
+2021-01-13 21:26:12.179 [main] INFO  o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.demo.parking_access.ParkingAccessApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-01-13 21:26:12.180 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.demo.parking_access.ParkingAccessApplicationTests]: ParkingAccessApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-01-13 21:26:12.313 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.demo.parking_access.ParkingAccessApplication for test class com.demo.parking_access.ParkingAccessApplicationTests
+2021-01-13 21:26:12.418 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-01-13 21:26:12.434 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@19976a65, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@a1f72f5, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4b2c5e02, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@57a3e26a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@75c56eb9, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4bc222e, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2dc9b0f5, org.springframework.test.context.event.EventPublishingTestExecutionListener@6531a794, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@3b5fad2d, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5e17553a, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3eb91815, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@56dc1551, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@102cec62]
+2021-01-13 21:26:12.692 [main] INFO  c.d.parking_access.ParkingAccessApplicationTests - Starting ParkingAccessApplicationTests on DESKTOP-4IL9A7A with PID 16928 (started by Yang in F:\parking_access)
+2021-01-13 21:26:12.693 [main] INFO  c.d.parking_access.ParkingAccessApplicationTests - No active profile set, falling back to default profiles: default
+2021-01-13 21:26:13.513 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-13 21:26:13.525 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-01-13 21:26:13.568 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15ms. Found 0 Redis repository interfaces.
+2021-01-13 21:26:15.396 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-13 21:26:15.608 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-13 21:26:16.541 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2021-01-13 21:26:16.563 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-01-13 21:26:16.563 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2021-01-13 21:26:16.564 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2021-01-13 21:26:16.565 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2021-01-13 21:26:16.565 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2021-01-13 21:26:16.565 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2021-01-13 21:26:16.565 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@364b1061
+2021-01-13 21:26:16.630 [main] INFO  o.s.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+2021-01-13 21:26:16.631 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2021-01-13 21:26:16.641 [main] INFO  c.d.parking_access.ParkingAccessApplicationTests - Started ParkingAccessApplicationTests in 4.17 seconds (JVM running for 5.429)
+2021-01-13 21:26:16.992 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2021-01-13 21:26:16.992 [SpringContextShutdownHook] INFO  o.s.scheduling.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+2021-01-13 21:26:16.992 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2021-01-13 21:26:16.993 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2021-01-13 21:26:16.993 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2021-01-13 21:26:17.011 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-13 21:30:57.761 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.demo.parking_access.ParkingAccessApplicationTests], using SpringBootContextLoader
+2021-01-13 21:30:57.768 [main] INFO  o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.demo.parking_access.ParkingAccessApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-01-13 21:30:57.769 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.demo.parking_access.ParkingAccessApplicationTests]: ParkingAccessApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-01-13 21:30:57.933 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.demo.parking_access.ParkingAccessApplication for test class com.demo.parking_access.ParkingAccessApplicationTests
+2021-01-13 21:30:58.036 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-01-13 21:30:58.052 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@19976a65, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@a1f72f5, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4b2c5e02, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@57a3e26a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@75c56eb9, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4bc222e, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2dc9b0f5, org.springframework.test.context.event.EventPublishingTestExecutionListener@6531a794, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@3b5fad2d, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5e17553a, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3eb91815, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@56dc1551, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@102cec62]
+2021-01-13 21:30:58.381 [main] INFO  c.d.parking_access.ParkingAccessApplicationTests - Starting ParkingAccessApplicationTests on DESKTOP-4IL9A7A with PID 20712 (started by Yang in F:\parking_access)
+2021-01-13 21:30:58.381 [main] INFO  c.d.parking_access.ParkingAccessApplicationTests - No active profile set, falling back to default profiles: default
+2021-01-13 21:30:58.966 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-13 21:30:58.970 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-01-13 21:30:59.010 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15ms. Found 0 Redis repository interfaces.
+2021-01-13 21:31:01.250 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-13 21:31:01.491 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-13 21:31:02.385 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2021-01-13 21:31:02.400 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-01-13 21:31:02.400 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2021-01-13 21:31:02.401 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2021-01-13 21:31:02.402 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2021-01-13 21:31:02.402 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2021-01-13 21:31:02.402 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2021-01-13 21:31:02.402 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@5e0c4f21
+2021-01-13 21:31:02.490 [main] INFO  o.s.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+2021-01-13 21:31:02.490 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2021-01-13 21:31:02.501 [main] INFO  c.d.parking_access.ParkingAccessApplicationTests - Started ParkingAccessApplicationTests in 4.418 seconds (JVM running for 5.779)
+2021-01-13 21:31:02.774 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2021-01-13 21:31:02.775 [SpringContextShutdownHook] INFO  o.s.scheduling.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+2021-01-13 21:31:02.775 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2021-01-13 21:31:02.776 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2021-01-13 21:31:02.776 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2021-01-13 21:31:02.797 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
